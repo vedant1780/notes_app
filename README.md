@@ -39,14 +39,14 @@ A simple and elegant Flutter application for managing notes locally using SQLite
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/vedant1780/flutter-notes-app.git
 cd flutter-notes-app
 ```
-flutter pub get
-flutter run
+2.flutter pub get
+3.flutter run
 dependencies:
   flutter:
     sdk: flutter
