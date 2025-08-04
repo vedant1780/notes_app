@@ -54,7 +54,7 @@ dependencies:
   path_provider: ^2.1.1
   path: ^1.8.3
 
----
+
 ## Screenshots
 <img width="540" height="1080" alt="Screenshot_20250804_080423" src="https://github.com/user-attachments/assets/4109661d-825f-4a12-87c2-1a2749549718" />
   <img width="540" height="1080" alt="Screenshot_20250804_080441" src="https://github.com/user-attachments/assets/82297922-4806-4136-9869-f278ed3a95b3" />
