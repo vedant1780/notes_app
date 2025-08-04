@@ -1,4 +1,4 @@
-#### 📝 Notes App (Flutter + SQLite)
+# 📝 Notes App (Flutter + SQLite)
 A simple Flutter application that allows users to add, edit, and delete notes using a local SQLite database through sqflite. The app demonstrates state management with setState, modal bottom sheets, and database CRUD operations.
 
 ## 📱 Features
@@ -23,14 +23,13 @@ Local Paths	path_provider
 UI Components	Modal Bottom Sheets, ListView, TextField
 
 ## 📂 Project Structure
-bash
-Copy
-Edit
+
 lib/
 ├── main.dart
 ├── homepage.dart         # UI and logic
 └── local/
     └── db_helper.dart    # SQLite DB handler
+
 ## 🧪 How It Works
 HomePage loads all notes from local DB using DBHelper.
 
@@ -44,28 +43,14 @@ The UI is refreshed using setState() after any data change.
 
 ## 🚀 Getting Started
 Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/flutter-notes-app.git
+git clone https://github.com/vedant1780/flutter-notes-app.git
 cd flutter-notes-app
 Install dependencies:
-
-bash
-Copy
-Edit
 flutter pub get
 Run the app:
-
-bash
-Copy
-Edit
 flutter run
 ## 🔧 Dependencies
 yaml
-Copy
-Edit
 dependencies:
   flutter:
     sdk: flutter
