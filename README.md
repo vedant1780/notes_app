@@ -1,16 +1,79 @@
-# database
+#### 📝 Notes App (Flutter + SQLite)
+A simple Flutter application that allows users to add, edit, and delete notes using a local SQLite database through sqflite. The app demonstrates state management with setState, modal bottom sheets, and database CRUD operations.
 
-A new Flutter project.
+## 📱 Features
+ 🗒️ Add new notes with title and description
 
-## Getting Started
+ ✏️ Edit existing notes
 
-This project is a starting point for a Flutter application.
+ 🗑️ Delete notes with confirmation
 
-A few resources to get you started if this is your first Flutter project:
+📦 Local data persistence using SQLite
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🎨 Clean UI with Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⚡ Responsive and fast CRUD operations
+
+## 🛠️ Tech Stack
+Category	Tool/Library
+Frontend	Flutter (Dart)
+State Mgmt	setState()
+Database	sqflite
+Local Paths	path_provider
+UI Components	Modal Bottom Sheets, ListView, TextField
+
+## 📂 Project Structure
+bash
+Copy
+Edit
+lib/
+├── main.dart
+├── homepage.dart         # UI and logic
+└── local/
+    └── db_helper.dart    # SQLite DB handler
+## 🧪 How It Works
+HomePage loads all notes from local DB using DBHelper.
+
+FloatingActionButton opens a modal bottom sheet for note creation.
+
+Edit/Delete icons provide inline note modification.
+
+DBHelper handles all CRUD operations in SQLite.
+
+The UI is refreshed using setState() after any data change.
+
+## 🚀 Getting Started
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/flutter-notes-app.git
+cd flutter-notes-app
+Install dependencies:
+
+bash
+Copy
+Edit
+flutter pub get
+Run the app:
+
+bash
+Copy
+Edit
+flutter run
+## 🔧 Dependencies
+yaml
+Copy
+Edit
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  ## Screenshots
+  <img width="540" height="1080" alt="Screenshot_20250804_080423" src="https://github.com/user-attachments/assets/4109661d-825f-4a12-87c2-1a2749549718" />
+  <img width="540" height="1080" alt="Screenshot_20250804_080441" src="https://github.com/user-attachments/assets/82297922-4806-4136-9869-f278ed3a95b3" />
+
+  
